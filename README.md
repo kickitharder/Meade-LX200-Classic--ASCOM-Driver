@@ -42,8 +42,8 @@ Once parked, it is best to leave the LX200 powered on if possible.  If turned of
 LX200's initailisation procedure - it does it to find the magnet on it's worm gear so that it know the worm's position.  The
 amount of turning is random meaning the assumed home positiion when unparking will likely be wrong.
 
-Libray Dialog
--------------
+Library Dialog
+--------------
 
 If the correct COM port has been selected and the telescope is not parked, then the objects from the LX200 library can be selected
 and slewed to.  Selecting the radio button beside the chosen object and clicking on the "Go to" button will make the LX200 slew to
