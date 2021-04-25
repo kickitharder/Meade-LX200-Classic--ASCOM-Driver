@@ -61,6 +61,8 @@ The objects available include:
 7)  12921 UGC objects
 8)  LX200's 315 alignment stars
 
+*The Sun is not in the LX200's library - it is calculated by the driver and added to the list.
+
 There are other catalogues in the LX200's firmware but some versions of the firmware do not allow serial port access to them.
 When an object is selected, the object details held in the LX200's firmware are displayed, where applicable, such as:
 
