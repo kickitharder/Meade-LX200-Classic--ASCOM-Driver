@@ -22,10 +22,10 @@ Setup Dialog
 2)  A "Check Connection" button so that the user can see straight away if the LX200 responds on the selected COM port.
 3)  The user can select one of the seven LX200 Classic models.  The driver can now supply the client application with the
     correct aperture, diameter and focal length without any additional input from the user.
-4)  If a focal reducer is being used then the F-number of reducer can be entered as a percentage, e.g. F6.3 will be enter as 63%.
+4)  If a focal reducer is being used then the F-number of reducer can be entered as a percentage, e.g. F6.3 will be entered as 63%.
 5)  The maximum slew rate can be set (default is 3 degrees per second) instead of 8 degs per sec.  This saves the LX200's motors!
 6)  The telescope's site elevation in metres above sea level can be defined here for the client application to use.
-7)  The maximum declination in degrees that the telescope can slew to can be set.  This helps to avoid camera equipment form
+7)  The maximum declination in degrees that the telescope can slew to can be set.  This helps to avoid camera equipment from
     colliding with LX200's mount.
 8)  The home position for parking the telescope can set by the user suppling the hour angle and declination of the home postions.
 9)  The LX200's own on board library can be accessed by clicking on the "Library" button.
