@@ -28,3 +28,33 @@ D:\Google Drive\Development\Repositories\LX200Classic\obj\Debug\ASCOM.LX200Class
 D:\Google Drive\Development\Repositories\LX200Classic\obj\Debug\ASCOM.LX200Classic.frmSetup.resources
 D:\Google Drive\Development\Repositories\LX200Classic\obj\Debug\ASCOM.LX200Classic.frmLibrary.resources
 D:\Google Drive\Development\Repositories\LX200Classic\obj\Debug\ASCOM.LX200Classic.frmParking.resources
+D:\Google Drive\Development\Repositories\LX200Classic\Meade LX200 Classic ASCOM Driver\bin\Debug\ASCOM.LX200Classic.Telescope.dll.config
+D:\Google Drive\Development\Repositories\LX200Classic\Meade LX200 Classic ASCOM Driver\bin\Debug\ASCOM.LX200Classic.Telescope.dll
+D:\Google Drive\Development\Repositories\LX200Classic\Meade LX200 Classic ASCOM Driver\bin\Debug\ASCOM.LX200Classic.Telescope.pdb
+D:\Google Drive\Development\Repositories\LX200Classic\Meade LX200 Classic ASCOM Driver\bin\Debug\ASCOM.LX200Classic.Telescope.tlb
+D:\Google Drive\Development\Repositories\LX200Classic\Meade LX200 Classic ASCOM Driver\bin\Debug\ASCOM.Astrometry.dll
+D:\Google Drive\Development\Repositories\LX200Classic\Meade LX200 Classic ASCOM Driver\bin\Debug\ASCOM.Attributes.dll
+D:\Google Drive\Development\Repositories\LX200Classic\Meade LX200 Classic ASCOM Driver\bin\Debug\ASCOM.Controls.dll
+D:\Google Drive\Development\Repositories\LX200Classic\Meade LX200 Classic ASCOM Driver\bin\Debug\ASCOM.DeviceInterfaces.dll
+D:\Google Drive\Development\Repositories\LX200Classic\Meade LX200 Classic ASCOM Driver\bin\Debug\ASCOM.Exceptions.dll
+D:\Google Drive\Development\Repositories\LX200Classic\Meade LX200 Classic ASCOM Driver\bin\Debug\ASCOM.SettingsProvider.dll
+D:\Google Drive\Development\Repositories\LX200Classic\Meade LX200 Classic ASCOM Driver\bin\Debug\ASCOM.Utilities.dll
+D:\Google Drive\Development\Repositories\LX200Classic\Meade LX200 Classic ASCOM Driver\bin\Debug\ASCOM.Internal.Extensions.dll
+D:\Google Drive\Development\Repositories\LX200Classic\Meade LX200 Classic ASCOM Driver\bin\Debug\ASCOM.Astrometry.xml
+D:\Google Drive\Development\Repositories\LX200Classic\Meade LX200 Classic ASCOM Driver\bin\Debug\ASCOM.Attributes.xml
+D:\Google Drive\Development\Repositories\LX200Classic\Meade LX200 Classic ASCOM Driver\bin\Debug\ASCOM.Controls.xml
+D:\Google Drive\Development\Repositories\LX200Classic\Meade LX200 Classic ASCOM Driver\bin\Debug\ASCOM.DeviceInterfaces.xml
+D:\Google Drive\Development\Repositories\LX200Classic\Meade LX200 Classic ASCOM Driver\bin\Debug\ASCOM.Exceptions.xml
+D:\Google Drive\Development\Repositories\LX200Classic\Meade LX200 Classic ASCOM Driver\bin\Debug\ASCOM.SettingsProvider.xml
+D:\Google Drive\Development\Repositories\LX200Classic\Meade LX200 Classic ASCOM Driver\bin\Debug\ASCOM.Utilities.xml
+D:\Google Drive\Development\Repositories\LX200Classic\Meade LX200 Classic ASCOM Driver\bin\Debug\ASCOM.Internal.Extensions.xml
+D:\Google Drive\Development\Repositories\LX200Classic\Meade LX200 Classic ASCOM Driver\obj\Debug\LX200Classic.vbprojAssemblyReference.cache
+D:\Google Drive\Development\Repositories\LX200Classic\Meade LX200 Classic ASCOM Driver\obj\Debug\ASCOM.LX200Classic.frmLibrary.resources
+D:\Google Drive\Development\Repositories\LX200Classic\Meade LX200 Classic ASCOM Driver\obj\Debug\ASCOM.LX200Classic.frmParking.resources
+D:\Google Drive\Development\Repositories\LX200Classic\Meade LX200 Classic ASCOM Driver\obj\Debug\ASCOM.LX200Classic.Resources.resources
+D:\Google Drive\Development\Repositories\LX200Classic\Meade LX200 Classic ASCOM Driver\obj\Debug\ASCOM.LX200Classic.frmSetup.resources
+D:\Google Drive\Development\Repositories\LX200Classic\Meade LX200 Classic ASCOM Driver\obj\Debug\LX200Classic.vbproj.GenerateResource.cache
+D:\Google Drive\Development\Repositories\LX200Classic\Meade LX200 Classic ASCOM Driver\obj\Debug\LX200Classic.vbproj.CoreCompileInputs.cache
+D:\Google Drive\Development\Repositories\LX200Classic\Meade LX200 Classic ASCOM Driver\obj\Debug\LX200Classic.vbproj.CopyComplete
+D:\Google Drive\Development\Repositories\LX200Classic\Meade LX200 Classic ASCOM Driver\obj\Debug\ASCOM.LX200Classic.Telescope.dll
+D:\Google Drive\Development\Repositories\LX200Classic\Meade LX200 Classic ASCOM Driver\obj\Debug\ASCOM.LX200Classic.Telescope.pdb

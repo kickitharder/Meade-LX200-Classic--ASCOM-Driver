@@ -861,15 +861,16 @@ Public Class Telescope
     Public Property SiteElevation() As Double Implements ITelescopeV3.SiteElevation
         Get
             pad += 1
-            TL.LogMessage(Space(pad) + "SiteElevation Get", "Not implemented")
+            TL.LogMessage(Space(pad) + "SiteElevation Get", elevation.ToString)
             pad -= 1
-            Throw New ASCOM.PropertyNotImplementedException("SiteElevation", False)
+            Return elevation
         End Get
         Set(value As Double)
             pad += 1
-            TL.LogMessage(Space(pad) + "SiteElevation Set", "Not implemented")
+            TL.LogMessage(Space(pad) + "SiteElevation Set", elevation.ToString)
+            elevation = value
+            WriteProfile()
             pad -= 1
-            Throw New ASCOM.PropertyNotImplementedException("SiteElevation", True)
         End Set
     End Property
 
