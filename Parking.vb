@@ -73,7 +73,7 @@ Public Class frmParking
 
     Private Sub btnAbort_Click(sender As Object, e As EventArgs) Handles btnAbort.Click
         Timer1.Enabled = False
-        Me.DialogResult = System.Windows.Forms.DialogResult.OK
+        Me.DialogResult = System.Windows.Forms.DialogResult.Abort
         Me.Close()
     End Sub
 

@@ -453,7 +453,7 @@ Partial Class frmSetup
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(59, 13)
         Me.Label17.TabIndex = 40
-        Me.Label17.Text = "V1.210425"
+        Me.Label17.Text = "V1.210426"
         '
         'Label18
         '

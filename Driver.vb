@@ -99,7 +99,7 @@ Public Class Telescope
     Private TL As TraceLogger ' Private variable to hold the trace logger object (creates a diagnostic log file with information that you specify)
     Private lxTracking As Boolean = True
     Private lxAtHome As Boolean = False
-    Private lxSlewSettleTime As Double = 2
+    Private lxSlewSettleTime As Double = 3
     Private lxLatitude As Double = 0
     Private lxLongitude As Double = 0
     Private lxTargetDEC As Double = 0
@@ -296,25 +296,25 @@ Public Class Telescope
     Public Sub AbortSlew() Implements ITelescopeV3.AbortSlew
         pad += 1
         TL.LogMessage(Space(pad) + "AbortSlew", "Aborting slew")
-        'Throw New ASCOM.MethodNotImplementedException("AbortSlew")
-        SerialCommand("Q", 0)                           ' Stop any slewing
-        SerialCommand("Qn", 0)                          ' Stop any other motion
+        SerialCommand("Q", 0)                                   ' Stop any slewing
+        SerialCommand("Qn", 0)                                  ' Stop any other motion
         SerialCommand("Qs", 0)
         SerialCommand("Qw", 0)
         If Not lxTracking Then SerialCommand("Qe", 0)
         utilities.WaitForMilliseconds(200)
-        SerialCommand("Q", 0)                           ' Send Abort command twice to ensure telescope stops
+        SerialCommand("Q", 0)                                   ' Send Abort command twice to ensure telescope stops
         SerialCommand("Qn", 0)
         SerialCommand("Qs", 0)
         SerialCommand("Qw", 0)
         If Not lxTracking Then SerialCommand("Qe", 0)
-        Dim str As String = LongFormat("GR")           ' Make LX200's target coordinates the same as the current ones
+        utilities.WaitForMilliseconds(lxSlewSettleTime * 1000)  ' Wait some time to settle
+        Dim str As String = LongFormat("GR")                    ' Make LX200's target coordinates the same as the current ones
         SerialCommand("Sr" + str, 1)
         lxTargetRA = HMS2Hrs(str)
         str = LongFormat("GD")
         SerialCommand("Sd" + str, 1)
         lxTargetDEC = DMS2Degs(str)
-        lxSlewing = False                               ' No longer slewing
+        lxSlewing = False                                       ' No longer slewing
         pad -= 1
     End Sub
 
@@ -752,7 +752,10 @@ Public Class Telescope
             SerialCommand("Qs", 0)
             SerialCommand("AL", 0)                                          ' Put into land mode to switch off LX200's drive
 
-            CoordsAfter = LongFormat("GA") + LongFormat("GZ")               ' Make absolutely sure the LX200 is parked!
+            Do Until Trim(SerialCommand("D", -1)) = ""                       ' Make absolutely sure the LX200 is parked!
+                utilities.WaitForMilliseconds(200)
+            Loop
+            CoordsAfter = LongFormat("GA") + LongFormat("GZ")
             For i = 1 To 20
                 CoordsBefore = CoordsAfter
                 TL.LogMessage(Space(pad) + "Coords", "Before " + CoordsBefore)
@@ -1015,7 +1018,7 @@ Public Class Telescope
             Dim Coords As String = LongFormat("GR") + LongFormat("GD")
             If Coords = lxSlewingCoords Then
                 If lxSlewing AndAlso Coords <> LongFormat("Gr") + LongFormat("Gd") Then utilities.WaitForMilliseconds(lxSlewSettleTime * 1000)
-                lxSlewing = False
+                If Trim(SerialCommand("D", -1)) = "" Then lxSlewing = False
             End If
             lxSlewingCoords = Coords
             TL.LogMessage(Space(pad) + "Slewing Get", "Slewing state on exit: " + IIf(lxSlewing, "Slewing", "Not slewing"))
