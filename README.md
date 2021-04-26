@@ -1,6 +1,13 @@
 Meade LX200 Classic ASCOM Driver
 ================================
 
+Things still to do:
+
+1)  Sort out Slewing status bug - driver thinks LX200 has finished its slew even though it hasn't!
+2)  Sort out parking "Abort" button bug - driver assumes it is parked at point "Abort" button is pressed!
+3)  Ability to pulse guide on both axes simultaneously
+4)  Incorporate control of the LX200 Classic's focuser motor
+
 25 April 2021
 -------------
 
