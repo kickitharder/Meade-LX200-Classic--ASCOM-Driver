@@ -5,7 +5,6 @@ Things still to do:
 
 1)  Ability to pulse guide on both axes simultaneously
 2)  Incorporate control of the LX200 Classic's focuser motor
-3)  Self installation file for the driver
 
 25 April 2021
 -------------
