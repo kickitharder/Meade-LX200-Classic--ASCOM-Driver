@@ -6,8 +6,8 @@ Things still to do:
 1)  Ability to pulse guide on both axes simultaneously
 2)  Incorporate control of the LX200 Classic's focuser motor
 
-25 April 2021
--------------
+8 May 2021
+----------
 
 At the time of writing, I cannot find an ASCOM driver for the Meade LX200 Classic SCT telesope which provides me with my needs,
 so I set about writing this one. This ASCOM driver should work for all models of the LX200 Classic telescopes, namely the
