@@ -1,0 +1,145 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<TITLE>Meade LX200 Classic ASCOM Driver</TITLE>
+	<STYLE TYPE="text/css">
+	<!--
+		@page { margin: 2cm }
+		P { font-family: "Verdana", "Arial", "Helvetica", sans-serif; font-weight: normal }
+		TD P { font-family: "Verdana", "Arial", "Helvetica", sans-serif; font-weight: normal }
+		H3 { font-family: "Arial", "Helvetica", sans-serif }
+		H2 { font-family: "Arial", "Helvetica", sans-serif }
+		H4 { font-family: "Arial", "Helvetica", sans-serif }
+	-->
+	</STYLE>
+</HEAD>
+<H2>ASCOM driver for the Meade LX200 Classic Telescope.
+</H2>
+<HR>
+<P>This ASCOM driver should work for all models of the LX200 Classic telescopes, namely the
+7" Maksutov-Cassegrain, the 8", 10", 12" and 16" F10, and the 8" and 10" F6.3 Schmidt-Cassegrain telescopes.
+
+Connection to the telescope via this ASCOM driver by the client application is much quicker.  The telescope's date and time is 
+updated on connection or when unparking.
+
+This ASCOM driver has been written in Visual Basic.NET and has the following features which others do not have or perform as well:
+</P>
+<H4>
+Setup Dialog
+</H4>
+<P>
+1)  Lists all COM ports in order to make it easy to select the correct one connected to the LX200.
+</P>
+<P>
+2)  A "Check Connection" button so that the user can see straight away if the LX200 responds on the selected COM port.
+</P>
+<P>
+3)  The user can select one of the seven LX200 Classic models.  The driver can now supply the client application with the
+    correct aperture, diameter and focal length without any additional input from the user.
+</P>
+<P>
+4)  If a focal reducer is being used then the F-number of reducer can be entered as a percentage, e.g. F6.3 will be entered as 63%.
+</P>
+<P>
+5)  The maximum slew rate can be set (default is 3 degrees per second) instead of 8 degs per sec.  This saves the LX200's motors!
+</P>
+<P>
+6)  The telescope's site elevation in metres above sea level can be defined here for the client application to use.
+</P>
+<P>
+7)  The maximum declination in degrees that the telescope can slew to can be set.  This helps to avoid camera equipment from
+    colliding with LX200's mount.
+</P>
+<P>
+8)  The home position for parking the telescope can set by the user supplying the hour angle and declination of the home positions.
+</P>
+<P>
+9)  The LX200's own on-board library can be accessed by clicking on the "Library" button.
+</P>
+<P>
+The LX200 (except the 16") does not have a facility for parking.  This driver allows the LX200 to park at a given hour angle,
+given in hours, from the meridian (south is 0 hours).  The home declination is also given here.  When thec lient application asks 
+the driver to park the LX200, the LX200 will be parked at this home position.  While parking, a pop-up window shows the progress of
+the parking with an "Abort" button to halt the process.  For the 16" LX200, its own parking feature is not used.
+</P>
+<P>
+When parked, the LX200 is put into LAND mode which stops the LX200's mount from being driven and respond to any go-to slew
+commands.  When unparked, the home position can be calculated by getting local sidereal time and adding the hour angle to it to
+get the LX200's Right Ascension.  The telescope's Declination is simply the same as when it was parked.  All of this assumes that
+the clutches on each axis haven't been released.
+</P>
+<P>
+Once parked, it is best to leave the LX200 powered on if possible.  If turned off, the LX200 RA motor drive turns during the
+LX200's initailisation procedure - it does it to find the magnet on it's worm gear so that it knows the worm's position.  The
+amount of turning is random meaning the assumed home position when unparking will likely be wrong.
+</P>
+<H3>
+Library Dialog
+</H3>
+<P>
+If the correct COM port has been selected and the telescope is not parked, then the objects from the LX200 library can be selected
+and slewed to.  Selecting the radio button beside the chosen object and clicking on the "Go to" button will make the LX200 slew to
+that object.
+</P>
+<P>
+The objects available include:
+</P>
+<P>
+</P>
+<P>
+1)  The LX200's named stars
+</P>
+<P>
+2)  Solar Sytem objects, including the Sun*, Moon, the Planets and Pluto
+</P>
+<P>
+3)  110 Messier objects
+</P>
+<P>
+4)  7840 CNGC objects
+</P>
+<P>
+5)  5386 IC objects
+</P>
+<P>
+7)  12921 UGC objects
+</P>
+<P>
+8)  LX200's 315 alignment stars
+</P>
+<P>
+*The Sun is not in the LX200's library - it is calculated by the driver and added to the list.
+</P>
+<P>
+There are other catalogues in the LX200's firmware but some versions of the firmware do not allow serial port access to them.
+When an object is selected, the object details held in the LX200's firmware are displayed, where applicable, such as:
+</P>
+<P>
+-   Object name
+</P>
+<P>
+-   Constellation
+</P>
+<P>
+-   Right Ascension
+</P>
+<P>
+-   Declination
+</P>
+<P>
+-   Magnitude
+</P>
+<P>
+-   Object type
+</P>
+<P>
+-   Size (or moon phase)
+</P>
+<P>
+-   Quality of the object</H3>
+<P><P>Ensure you visit the <A HREF = "https://github.com/kickitharder/Meade-LX200-Classic--ASCOM-Driver" TARGET="browser">Meade LX200 Classic GitHub website</A>
+regularly for the latest drivers and information.</P>
+<P>Enjoy!</P>
+<BR>	
+<P>(c) 2021 Keith Rickard</P>
+<P>Crayford Manor House Astronomical Society Dartford</P>
