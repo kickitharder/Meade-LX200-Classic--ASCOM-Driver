@@ -33,6 +33,10 @@ Setup Dialog
 8)  The home position for parking the telescope can set by the user supplying the hour angle and declination of the home positions.
 9)  The LX200's own on-board library can be accessed by clicking on the "Library" button.
 
+20 November 2021
+----------------
+
+Have uploaded a zip file with the code for four ASCOM drivers which will allow upto 4 PC apps to control the LX200 unhindered and without conflict.
 The LX200 (except the 16") does not have a facility for parking.  This driver allows the LX200 to park at a given hour angle,
 given in hours, from the meridian (south is 0 hours).  The home declination is also given here.  When thec lient application asks 
 the driver to park the LX200, the LX200 will be parked at this home position.  While parking, a pop-up window shows the progress of
@@ -77,3 +81,4 @@ When an object is selected, the object details held in the LX200's firmware are 
 -   Object type
 -   Size (or moon phase)
 -   Quality of the object
+
