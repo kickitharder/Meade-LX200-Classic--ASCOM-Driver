@@ -6,15 +6,15 @@ Things still to do:
 1)  Ability to pulse guide on both axes simultaneously
 2)  Incorporate control of the LX200 Classic's focuser motor
 
-8 May 2021
-----------
+4 December 2021
+---------------
 
 At the time of writing, I cannot find an ASCOM driver for the Meade LX200 Classic SCT telesope which provides me with my needs,
 so I set about writing this one. This ASCOM driver should work for all models of the LX200 Classic telescopes, namely the
 7" Maksutov-Cassegrain, the 8", 10", 12" and 16" F10, and the 8" and 10" F6.3 Schmidt-Cassegrain telescopes.
 
-Connection to the telescope via this ASCOM driver by the client application is much quicker.  The telescope's date and time is 
-updated on connection or when unparking.
+Connection to the telescope via this ASCOM driver by the client application is much quicker.  The telescope's date and time can
+optonally be updated on connection or when unparking using the PC's clock.
 
 This ASCOM driver has been written in Visual Basic .NET and has the following features which others do not have or perform as well:
 
@@ -33,12 +33,8 @@ Setup Dialog
 8)  The home position for parking the telescope can set by the user supplying the hour angle and declination of the home positions.
 9)  The LX200's own on-board library can be accessed by clicking on the "Library" button.
 
-20 November 2021
-----------------
-
-Have uploaded a zip file with the code for four ASCOM drivers which will allow upto 4 PC apps to control the LX200 unhindered and without conflict.
 The LX200 (except the 16") does not have a facility for parking.  This driver allows the LX200 to park at a given hour angle,
-given in hours, from the meridian (south is 0 hours).  The home declination is also given here.  When thec lient application asks 
+given in hours, from the meridian (south is 0 hours).  The home declination is also given here.  When the client application asks 
 the driver to park the LX200, the LX200 will be parked at this home position.  While parking, a pop-up window shows the progress of
 the parking with an "Abort" button to halt the process.  For the 16" LX200, its own parking feature is not used.
 
@@ -48,7 +44,7 @@ get the LX200's Right Ascension.  The telescope's Declination is simply the same
 the clutches on each axis haven't been released.
 
 Once parked, it is best to leave the LX200 powered on if possible.  If turned off, the LX200 RA motor drive turns during the
-LX200's initailisation procedure - it does it to find the magnet on it's worm gear so that it knows the worm's position.  The
+LX200's initailisation procedure - it does it to find the magnet on its worm gear so that it knows the worm's position.  The
 amount of turning is random meaning the assumed home position when unparking will likely be wrong.
 
 Library Dialog
