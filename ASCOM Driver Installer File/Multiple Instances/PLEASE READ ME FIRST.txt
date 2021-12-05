@@ -1,8 +1,8 @@
 Multiple Instances of the Meade LX200 Classic ASCOM Driver
 ==========================================================
 
-In order to allow many PC applications, such as telescope control and planetarium programs, to access the same Meade LX200 Classic telescope simultaneously
-, four additional 32 bit drivers have been created so that they can co-exist and access the LX200 without interference with each other.  Simply download 
+In order to allow many PC applications, such as telescope control and planetarium programs, to access the same Meade LX200 Classic telescope simultaneously, 
+four additional 32 bit drivers have been created so that they can co-exist and access the LX200 without interference with each other.  Simply download 
 and install any additional driver you require to get motoring.
 
 This method works by having the driver wait for the COM port that the LX200 is connected to becomes available.  It will then open the COM port connection,
