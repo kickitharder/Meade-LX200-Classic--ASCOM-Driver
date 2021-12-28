@@ -18,19 +18,33 @@ Notable Features
 ----------------
 
 •	Check connection with the telescope on the driver’s setup window
+
 •	Telescope model selection – the driver knows the telescope’s focal length, aperture area and aperture diameter.
+
 •	Focal reducer setting
+
 •	Optional automatic telescope clock update, including local sidereal time
+
 •	Optional mini hand controller with Meade focuser control
+
 •	Maximum Declination for slew – helps to prevent cameras from hitting the telescope’s mount!
+
 •	Maximum slew rate to save the LX200’s motors
+
 •	Set observing site’s elevation
+
 •	Parking the telescope with progress window
+
 •	Dual pulse guiding that can allow corrections to both telescope axes simultaneously
+
 •	Access to the LX200’s native library of objects, including the sun, for slewing to.
+
 •	Optional voice announcements when using the ASCOM driver
+
 •	32 and 64-bit versions are available
+
 •	Multiple applications can access the LX200 simultaneously
+
 
 The LX200 (except the 16") does not have a facility for parking.  This driver allows the LX200 to park at a given hour angle,
 given in hours, from the meridian (south is 0 hours).  The home declination is also given here.  When the client application asks 
