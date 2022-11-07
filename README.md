@@ -35,7 +35,7 @@ Notable Features
 
 •	Parking the telescope with progress window
 
-•	Dual pulse guiding that can allow corrections to both telescope axes simultaneously
+•	Dual pulse guiding that can allow corrections to both telescope axes simultaneously for any time period
 
 •	Access to the LX200’s native library of objects, including the sun, for slewing to.
 
