@@ -41,7 +41,7 @@ Notable Features
 
 •	Optional voice announcements when using the ASCOM driver
 
-•	32 and 64-bit versions are available
+•	Works in 32 & 64 bit environments
 
 •	Multiple applications can access the LX200 simultaneously
 
