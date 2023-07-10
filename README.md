@@ -21,7 +21,7 @@ Notable Features
 
 •	Telescope model selection – the driver knows the telescope’s focal length, aperture area and aperture diameter.
 
-•	Focal reducer setting
+•	Custom focal length setting
 
 •	Optional automatic telescope clock update, including local sidereal time
 
