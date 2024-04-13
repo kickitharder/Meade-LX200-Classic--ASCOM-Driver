@@ -2,8 +2,8 @@ Meade LX200 Classic ASCOM Driver
 ================================
 
 
-10 July 2023
-------------
+13 April 2024
+-------------
 
 At the time of writing, I cannot find an ASCOM driver for the Meade LX200 Classic SCT telesope which provides me with my needs,
 so I set about writing this one. This ASCOM driver should work for all models of the LX200 Classic telescopes, namely the
