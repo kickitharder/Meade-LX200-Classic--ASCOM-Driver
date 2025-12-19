@@ -19,6 +19,8 @@ This ASCOM driver has been written in Visual Basic .NET and has the following fe
 Notable Features
 ----------------
 
+•	Works with N.I.N.A. where other Meade LX200 Classic drivers may fail.
+
 •	Check connection with the telescope on the driver’s setup window
 
 •	Telescope model selection – the driver knows the telescope’s focal length, aperture area and aperture diameter.
