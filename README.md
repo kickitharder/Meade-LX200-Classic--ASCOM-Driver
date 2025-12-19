@@ -5,7 +5,7 @@ Meade LX200 Classic ASCOM Driver
 19 December 2025
 ----------------
 
-The latest driver is Meade LX200 Classic Setup V2.240413a.exe.
+The latest driver is 'Meade LX200 Classic Setup V2.240413a.exe'.
 
 At the time of writing, I cannot find an ASCOM driver for the Meade LX200 Classic SCT telesope which provides me with my needs,
 so I set about writing this one. This ASCOM driver should work for all models of the LX200 Classic telescopes, namely the
