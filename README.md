@@ -69,3 +69,5 @@ the clutches on each axis haven't been released.
 Once parked, it is best to leave the LX200 powered on if possible.  If turned off, the LX200 RA motor drive turns during the
 LX200's initailisation procedure - it does it to find the magnet on its worm gear so that it knows the worm's position.  The
 amount of turning is random meaning the assumed home position when unparking will likely be wrong.
+
+To contact me, please find my email address on one of the screenhot images in this repository.
