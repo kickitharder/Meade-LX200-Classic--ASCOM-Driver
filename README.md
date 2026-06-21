@@ -74,7 +74,7 @@ Once parked, it is best to leave the LX200 powered on if possible.  If turned of
 LX200's initailisation procedure - it does it to find the magnet on its worm gear so that it knows the worm's position.  The
 amount of turning is random meaning the assumed home position when unparking will likely be wrong.
 
-To contact me, please find my email address on one of the screenhot images in this repository.
+To contact me, please find my email address in the MeadeLX200ClassicHelp.pdf in this repository.
 
 Clear Skies!
 
