@@ -14,8 +14,8 @@ so I set about writing this one. This ASCOM driver should work for all models of
 Connection to the telescope via this ASCOM driver by the client application is much quicker.  The telescope's date and time can
 optonally be updated on connection or when unparking using the PC's clock.
 
-IMPORTANT: This driver works reliably with Meade LX200 Classic telescopes as it was designe for them.  Other LX200 models, such as 
-LX200GPS, LX200R, LX200-ACF are unlikely to work with this driver.
+IMPORTANT: This driver works reliably with Meade LX200 Classic telescopes as it was designed for them.  Other LX200 models, such as 
+LX200GPS, LX200R, LX200-ACF are unlikely to work.
 
 This ASCOM driver has been written in Visual Basic .NET and has the following features which others do not have or perform as well:
 
