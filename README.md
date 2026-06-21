@@ -37,7 +37,7 @@ Notable Features
 
 •	Maximum Declination for slew – helps to prevent cameras from hitting the telescope’s mount!
 
-•	Maximum slew rate to save the LX200’s motors
+•	Maximum slew rate setting to save the LX200’s motors
 
 •	Set observing site’s elevation
 
