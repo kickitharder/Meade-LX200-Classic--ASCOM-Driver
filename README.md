@@ -5,7 +5,7 @@ Meade LX200 Classic ASCOM Driver
 21 June 2026
 ------------
 
-The latest driver is "Meade LX200 Classic Setup V2.240413a.exe".
+The latest driver is **Meade LX200 Classic Setup V2.240413a.exe**.
 
 At the time of writing, I cannot find an ASCOM driver for the Meade LX200 Classic SCT telesope which provides me with my needs,
 so I set about writing this one. This ASCOM driver should work for all models of the LX200 Classic telescopes, namely the
@@ -14,7 +14,7 @@ so I set about writing this one. This ASCOM driver should work for all models of
 Connection to the telescope via this ASCOM driver by the client application is much quicker.  The telescope's date and time can
 optonally be updated on connection or when unparking using the PC's clock.
 
-IMPORTANT: This driver works reliably with Meade LX200 Classic telescopes as it was designed for them.  Other LX200 models, such as 
+**IMPORTANT:** This driver works reliably with Meade LX200 Classic telescopes as it was designed for them.  Other LX200 models, such as 
 LX200GPS, LX200R, LX200-ACF are unlikely to work.
 
 This ASCOM driver has been written in Visual Basic .NET and has the following features which others do not have or perform as well:
