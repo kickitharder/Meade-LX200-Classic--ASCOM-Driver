@@ -71,3 +71,7 @@ LX200's initailisation procedure - it does it to find the magnet on its worm gea
 amount of turning is random meaning the assumed home position when unparking will likely be wrong.
 
 To contact me, please find my email address on one of the screenhot images in this repository.
+
+Clear Skies!
+
+Keith Rickard
