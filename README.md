@@ -6,10 +6,10 @@ Meade LX200 Classic ASCOM Driver
 ***THE AUTHOR OF THIS DRIVER WILL NOT ACCEPT ANY REPSONSIBLITY OR LIABILY OF ANY DAMAGE OR INJURY TO THE USER OR THE USER'S EQUIPMENT
 WHEN USING THIS DRIVER.  USE IT AT YOUR OWN RISK.  YOU HAVE BEEN WARNED.***
 
-14 September 2026
+15 September 2026
 -----------------
 
-The lastest driver is ***Meade LX200 Classic Setup V2.260913.exe*** .
+The lastest driver is ***Meade LX200 Classic Setup V2.260914.exe*** .
 
 This version fixes a bug which prevent the telescope from stopping to slewing under directional control - not while carrying out a
 go-to command).
