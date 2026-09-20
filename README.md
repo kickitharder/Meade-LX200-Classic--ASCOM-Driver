@@ -15,7 +15,7 @@ This version fixes potential issues with old versions of firmware where the LX20
 Ascension, Declination, Altitude and Azimuth).  For example, it may return RA as 12:34.9 instead of 12:34:56.  The driver now
 handles this correctly.
 
-Version V2.260914:
+***Meade LX200 Classic Setup V2.260914.exe*** .
 
 This version fixes a bug which prevent the telescope from stopping to slewing under directional control - not while carrying out a
 go-to command.
