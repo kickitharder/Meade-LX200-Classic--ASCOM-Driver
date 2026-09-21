@@ -17,7 +17,7 @@ handles this correctly.
 
 ***Meade LX200 Classic Setup V2.260914.exe*** .
 
-This version fixes a bug which prevent the telescope from stopping to slewing under directional control - not while carrying out a
+This version fixes a bug which prevented the telescope from stopping to slewing under directional control - not while carrying out a
 go-to command.
 
 
