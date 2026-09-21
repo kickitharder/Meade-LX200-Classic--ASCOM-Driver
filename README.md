@@ -6,10 +6,10 @@ Meade LX200 Classic ASCOM Driver
 ***THE AUTHOR OF THIS DRIVER WILL NOT ACCEPT ANY REPSONSIBLITY OR LIABILY OF ANY DAMAGE OR INJURY TO THE USER OR THE USER'S EQUIPMENT
 WHEN USING THIS DRIVER.  USE IT AT YOUR OWN RISK.  YOU HAVE BEEN WARNED.***
 
-20 September 2026
+21 September 2026
 -----------------
 
-The lastest driver is ***Meade LX200 Classic Setup V2.260920.exe*** .
+The lastest driver is ***Meade LX200 Classic Setup V2.260921.exe*** .
 
 This version fixes potential issues with old versions of firmware where the LX200 does not return hi-precision coordinates (Right
 Ascension, Declination, Altitude and Azimuth).  For example, it may return RA as 12:34.9 instead of 12:34:56.  The driver now
